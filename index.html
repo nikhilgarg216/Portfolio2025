@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikhil Garg Portfolio</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/icons/favicon.ico?v=1.0"
+    />
+    <script src="./js/animation.js" defer></script>
+    <script src="./js/color-mode.js" defer></script>
+    <script src="./js/project-slideshow.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/color-mode.css" />
+  </head>
+  <body>
+    <div id="hero">
+      <h5>Hello I'm</h5>
+      <h1>Nikhil Garg</h1>
+      <p>frontend Developer</p>
+      <!-- Block element modifier (BEM) naming convention -->
+      <div id="hero_animation">
+        <div id="hero_animation_img"></div>
+      </div>
+    </div>
+    <nav id="grid">
+      <!-- ABOUT -->
+      <div id="grid_tl">
+        <div id="grid_tl_btn">About</div>
+        <div id="grid_tl_content">
+          <div class="cards">
+            <div class="cards_content">
+              <article>
+                <img
+                  src="./assets/icons/experience.png"
+                  class="icon"
+                  alt="Experience Icon"
+                />
+                <h2>Experience</h2>
+                <p>
+                  2 Years + <br />
+                  Frontend Developer <br />
+                  experience
+                </p>
+              </article>
+              <p class="cards_content_text">
+                2+ years as a Frontend Developer at Shreeva and FPAIPL, building
+                SPAs with Vue.js and Angular, integrating APIs, and delivering
+                responsive, scalable web solutions.
+              </p>
+            </div>
+            <div class="cards_content">
+              <article>
+                <img
+                  src="./assets/icons/education.png"
+                  alt="Education Icon "
+                  class="icon"
+                />
+                <h2>Education</h2>
+                <p><b>1.</b> B.com</p>
+                <p><b>2.</b> Full Stck Dev</p>
+                <p><b>3.</b> DVBA</p>
+              </article>
+              <p class="cards_content_text">
+                <b>B.Com</b> : University of Delhi <br />
+                <b>Full Stack Development</b> : NIIT <br />
+                <b>Digital Video Broadcasting & Animation</b> : YMCA
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Experience -->
+      <div id="grid_tr">
+        <div id="grid_tr_btn">Experience</div>
+        <div id="grid_tr_content">
+          <div class="cards experience">
+            <article class="experience_skill">
+              <h2>Frontend Developer</h2>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>HTML/CSS</h2>
+                  <p>Proficient</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Javascript</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div class="">
+                  <h2>Bootstrap</h2>
+                  <p>Proficient</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div class="">
+                  <h2>Tailwind</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div class="">
+                  <h2>Vue.js</h2>
+                  <p>Proficient</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>React.js</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <!-- <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="checkmark Icon"
+                  class="icon"
+                />
+                <div class="">
+                  <h2>Angualr</h2>
+                  <p>Basic</p>
+                </div>
+              </div> -->
+            </article>
+            <article class="experience_skill">
+              <h2>Backend Development</h2>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Node JS</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Git</h2>
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/checkmark.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>cypress</h2>
+                  <p>basic</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- Projects -->
+      <div id="grid_bl">
+        <div id="grid_bl_btn">Projects</div>
+        <div id="grid_bl_content">
+          <div id="grid_bl_content_projects">
+            <div class="project p-1">
+              <img
+                class="project_img project-1"
+                src="assets/portfolio-projects/project-1-dark.png"
+                alt="Project 1"
+              />
+              <h2 class="project_title">Project One</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://netlify.com';"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com'"
+              >
+                GitHub
+              </button>
+            </div>
+            <div class="project p-2">
+              <img
+                class="project_img project-2"
+                src="assets/portfolio-projects/project-2-dark.png"
+                alt="Project 2"
+              />
+              <h2 class="project_title">Project Two</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://netlify.com'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com'"
+              >
+                GitHub
+              </button>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project_img project-3"
+                src="assets/portfolio-projects/project-3-dark.png"
+                alt="Project 3"
+              />
+              <h2 class="project_title">Project Three</h2>
+              <button
+                class="btn"
+                onclick="window.location.href='https://netlify.com'"
+              >
+                Demo
+              </button>
+              <button
+                class="btn"
+                onclick="window.location.href='https://github.com'"
+              >
+                GitHub
+              </button>
+            </div>
+            <button class="arrow" onclick="navigateProject(-1)">
+              &#10094;
+            </button>
+            <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div id="grid_br">
+        <div id="grid_br_btn">Contact</div>
+        <div id="grid_br_content">
+          <h5 class="contact-text">Get In Touch</h5>
+          <h2 class="contact-text">Contact Me</h2>
+          <div>
+            <button
+              class="btn btn-contact"
+              onclick="window.location.href='mailto:nikhilgarg216@gmail.com'"
+            >
+              Email
+            </button>
+            <button
+              class="btn btn-contact"
+              onclick="window.location.href='https://www.linkedin.com/in/nikhil3596/'"
+            >
+              LinkedIn
+            </button>
+            <button
+              class="btn btn-contact"
+              onclick="window.location.href='https://www.linkedin.com/in/nikhil3596/'"
+            >
+              CV
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="color-mode">
+      <div id="toggle-btn" class="icon"></div>
+    </div>
+  </body>
+</html>
